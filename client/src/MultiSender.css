@@ -1,0 +1,42 @@
+.select{
+    min-width: 90%;
+    height: 30px;
+    background-color: rgb(31, 4, 77);
+    color: white;
+    border-color: white;
+}
+
+.tokenAddressField{
+    min-width: 90%;
+    background-color: rgb(31, 4, 77);
+    color: white;
+    border-color: white;
+    height: 30px;
+}
+
+.allocationsField{
+    background-color: rgb(31, 4, 77);
+    color: white;
+    border-color: white;
+    min-width: 90%;
+}
+
+.transfer{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: small;
+}
+
+.transfer:hover{
+    background-color: rgb(41, 4, 75);
+    cursor: pointer;
+}
+.tokenDetails{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
